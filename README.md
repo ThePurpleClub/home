@@ -2,6 +2,7 @@
 Publish articles directly from Google Drive to your blog with React JS. Simple setup with no transpiling.
 
 Live demo will be out soon on my site!
+My site will be about raptors and birds!
 
 ### Features:
 - A dynamic site, but no backend to manage, no database, no server, no hosting & no maintenance
