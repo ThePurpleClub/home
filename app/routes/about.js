@@ -62,7 +62,7 @@ export const About = () => html`
         title="About"
         subtitle="React Drive CMS Demo"
         description="An easy way to publish articles directly from Google Drive"
-        sidebarImage=${prefixUriIfNeeded('/assets/default-about.jpg')}
+        sidebarImage=${prefixUriIfNeeded('/assets/logo.jpg')}
         showLinks=${true}
     >
         <div class="about-content">
@@ -73,14 +73,15 @@ export const About = () => html`
             <div class="info">
                 <h1 class="info-title">React Drive CMS Demo</h1>
                 <p>
-                    A demo site to showcase the use of Google Drive as a Content
-                    Management System. Write articles in Google Docs and publish
-                    them directly from there.
-                </p>
-                <p>
-                    Google Drive is the backend, only a few static files are
-                    hosted on GitHub Pages, and the content is displayed with
-                    React JS.
+                    Hi! This is a demo site to showcase my love and interests in birds and raptors.
+                    Hopefully people will get inspired and be more aware of birds &
+                    animals conservation and even get into studying ornithology.
+                
+                    This web application uses Google Drive as the backend. Only a few static files are
+                    hosted on GitHub Pages, and the content is displayed with React JS.
+
+                    Hope y'all enjoy this site and hope it sparks your interests in birds and the natural world!
+                    Happy chirping!
                 </p>
             </div>
         </div>
