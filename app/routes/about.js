@@ -67,7 +67,7 @@ export const About = () => html`
     >
         <div class="about-content">
             <img
-                src=${prefixUriIfNeeded('/assets/logo.png')}
+                src=${prefixUriIfNeeded('/assets/logo.jpg')}
                 class="image"
             />
             <div class="info">
