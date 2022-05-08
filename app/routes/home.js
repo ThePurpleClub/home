@@ -8,7 +8,7 @@ export const Home = ({ state, dispatch }) => html` <${Page}
     title="Cats"
     subtitle="React Drive CMS Demo"
     description="Publish articles directly from Google Drive to your website."
-    sidebarImage=${prefixUriIfNeeded('/assets/default-sidebar.jpg')}
+    sidebarImage=${prefixUriIfNeeded('/assets/harpy_eagle.jpg')}
     showLinks=${true}
 >
     <${PostsAndCategories} state=${state} dispatch=${dispatch} />
