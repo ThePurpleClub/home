@@ -59,9 +59,9 @@ export const About = () => html`
         }
     </style>
     <${Page}
-        title="About"
-        subtitle="React Drive CMS Demo"
-        description="An easy way to publish articles directly from Google Drive"
+        title="Gyrfalcon"
+        subtitle="The largest falcon in the world"
+        description="Gyrfalcon is a strong and festy predator in the High Arctic. This bird is also the world's fastest bird and can fly with an average speed of 50-68 mph."
         sidebarImage=${prefixUriIfNeeded('/assets/logo.jpg')}
         showLinks=${true}
     >
@@ -71,7 +71,7 @@ export const About = () => html`
                 class="image"
             />
             <div class="info">
-                <h1 class="info-title">React Drive CMS Demo</h1>
+                <h1 class="info-title">The Birds of Prey Hub</h1>
                 <p>
                     Hi! This is a demo site to showcase my love and interests in birds and raptors.
                     Hopefully people will get inspired and be more aware of birds &
