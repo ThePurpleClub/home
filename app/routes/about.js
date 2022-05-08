@@ -62,12 +62,12 @@ export const About = () => html`
         title="Gyrfalcon"
         subtitle="The largest falcon in the world"
         description="Gyrfalcon is a strong and festy predator in the High Arctic. This bird is also the world's fastest bird and can fly with an average speed of 50-68 mph."
-        sidebarImage=${prefixUriIfNeeded('/assets/logo.jpg')}
+        sidebarImage=${prefixUriIfNeeded('/assets/default-about.jpg')}
         showLinks=${true}
     >
         <div class="about-content">
             <img
-                src=${prefixUriIfNeeded('/assets/react_logo.png')}
+                src=${prefixUriIfNeeded('/assets/logo.png')}
                 class="image"
             />
             <div class="info">
