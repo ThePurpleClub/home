@@ -6,7 +6,7 @@ In 2022, the setup has a couple extra steps, mostly because of changes with the 
 
 https://potinmak.github.io/react-drive-cms/
 
-The basic layout of the site is out! Contents inside will be updated soon!
+The basic layout of the site is out! Contents of the sites are still building in progress.
 
 ### Features:
 - A dynamic site, but no backend to manage, no database, no server, no hosting & no maintenance (almost)
