@@ -215,7 +215,7 @@ export const Contact = ({ state, dispatch }) => {
             title="Contact"
             subtitle="Get in touch with us"
             description=""
-            sidebarImage=${prefixUriIfNeeded('/assets/default-contact.jpg')}
+            sidebarImage=${prefixUriIfNeeded('/assets/white_bald_eagle.jpg')}
         >
             <h3 class="contact-title">Send me an email</h3>
             <form>
