@@ -4,8 +4,9 @@ In 2022, the setup has a couple extra steps, mostly because of changes with the 
 - Google Spreadsheets API v3 has been discontinued and the update to the v4 requires the use of an API key that you need to configure in the Google Cloud Console
 - Sendgrid requires to create a verified sender account
 
-Live demo will be out soon on my site!
-My site will be about raptors and birds!
+https://potinmak.github.io/react-drive-cms/
+
+The basic layout of the site is out! Contents inside will be updated soon!
 
 ### Features:
 - A dynamic site, but no backend to manage, no database, no server, no hosting & no maintenance (almost)
