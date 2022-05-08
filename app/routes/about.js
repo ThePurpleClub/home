@@ -10,7 +10,7 @@ export const About = () => html`
         }
 
         .about-content img.image {
-            border-radius: 50%;
+            border-radius: 0%;
             width: 150px;
             border: 0;
             max-width: 100%;
