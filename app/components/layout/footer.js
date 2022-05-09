@@ -219,7 +219,7 @@ export const Footer = ({
                     onClick=${avoidReload}
                 >
                     <img
-                        src=${prefixUriIfNeeded('/assets/profile-1.jpg')}
+                        src=${prefixUriIfNeeded('/assets/boss.jpg')}
                         class="profile"
                         alt="user-image"
                     />
