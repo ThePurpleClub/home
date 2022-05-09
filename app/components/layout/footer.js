@@ -138,7 +138,7 @@ export const Footer = ({
                 width: 6rem;
                 padding: 0;
                 border: 0;
-                border-radius: 50%;
+                border-radius: 0%;
                 height: 6rem;
                 margin-bottom: 1rem;
             }
