@@ -212,12 +212,12 @@ export const Contact = ({ state, dispatch }) => {
             }
         </style>
         <${Page}
-            title="Contact"
-            subtitle="Get in touch with us"
-            description=""
+            title="Bald Eagle"
+            subtitle="This is a leukistic bald eagle."
+            description="This eagle has a pale coloration on his feathers, the cause of it is unknown. But its eyes and feet are the normal color, and its health status is normal."
             sidebarImage=${prefixUriIfNeeded('/assets/white_bald_eagle.jpg')}
         >
-            <h3 class="contact-title">Send me an email</h3>
+            <h3 class="contact-title">Let's keep in touch and send me an email! :D</h3>
             <form>
                 <div>
                     <label for="name" class="required"> Your name </label>
