@@ -9,7 +9,7 @@ export const Memoriam = () => html`
             display: block;
         }
 
-        .about-content img.image {
+       .about-content img.image {
             text-align: center;
             display: block;
             border: 0;
@@ -17,8 +17,9 @@ export const Memoriam = () => html`
             max-width: 130%;
             vertical-align: middle;
             float: left;
+            margin-left: 5rem;
+            margin-right: 5rem;
             margin-bottom: 2rem;
-            margin-right: 2rem;
             
         }
 
