@@ -164,7 +164,7 @@ export const Menu = ({ categories, articles, menuVisible }) => {
                         class="item-link"
                         onClick=${avoidReload}
                     >
-                        Memoriam
+                        In Memoriam
                     </a>
                 </li>
                 <li class="item">
