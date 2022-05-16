@@ -11,7 +11,7 @@ import { reducer, initialState } from './state.js'
 import { Article } from './routes/article.js'
 import { Category } from './routes/category.js'
 
-
+import { Memoriam } from './routes/memoriam.js'
 import { About } from './routes/about.js'
 import { Contact } from './routes/contact.js'
 import { Home } from './routes/home.js'
@@ -31,7 +31,9 @@ const App = () => {
             Page = Category
         } else if (pageName === 'articles') {
             Page = Article
-        } 
+        } else if (pageName === 'memoriam') {
+            Page = Memoriam 
+        }
         return Page
     }, [pageName])
 
