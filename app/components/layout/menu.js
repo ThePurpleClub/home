@@ -156,6 +156,17 @@ export const Menu = ({ categories, articles, menuVisible }) => {
                         About
                     </a>
                 </li>
+                 <li class="item">
+                    <i class="fas fa-monument icon" />
+                    <a
+                        href="${prefixUriIfNeeded('/memoriam')}"
+                        title="In Memoriam"
+                        class="item-link"
+                        onClick=${avoidReload}
+                    >
+                        In Memoriam
+                    </a>
+                </li>
                 <li class="item">
                     <i class="fas fa-paper-plane icon" />
                     <a
