@@ -95,7 +95,7 @@ export const Memoriam = () => html`
 
         <footer>
             <a
-                href="${prefixUriIfNeeded('/memoriam')}"
+                href="${prefixUriIfNeeded('/home')}"
                 class="memoriam"
                 onClick=${avoidReload}
             >
