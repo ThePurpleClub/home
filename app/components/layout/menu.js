@@ -160,7 +160,7 @@ export const Menu = ({ categories, articles, menuVisible }) => {
                     <i class="fas fa-monument icon" />
                     <a
                         href="${prefixUriIfNeeded('/memoriam')}"
-                        title="In Memoriam"
+                        title="Memoriam"
                         class="item-link"
                         onClick=${avoidReload}
                     >
