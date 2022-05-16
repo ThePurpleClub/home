@@ -88,7 +88,7 @@ export const Memoriam = () => html`
                     This site is built in memoriam of James Edward Parker, my mentor and friend.
                     
                 </p>
-                <h4> Professor, please wait for me. I will back to the United States soon, I will be waiting outside of Shepherd Labs 391. </h4>
+         
                 <p class="info-year"><i> 11/07/1984 - 01/20/2022 </i> </p>
             </div>
         </div>
