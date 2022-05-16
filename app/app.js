@@ -15,7 +15,7 @@ import { About } from './routes/about.js'
 import { Contact } from './routes/contact.js'
 import { Home } from './routes/home.js'
 import { getActiveItemId, getPageName } from './utils/path.js'
-//import { Memoriam } from './routes/memoriam.js'
+import { Memoriam } from './routes/memoriam.js'
 
 const App = () => {
     const [state, dispatch] = useReducer(reducer, initialState)
