@@ -18,6 +18,7 @@ export const Memoriam = () => html`
             vertical-align: middle;
             float: left;
             margin-bottom: 2rem;
+            margin-right: 2rem;
             
         }
 
