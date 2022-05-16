@@ -31,7 +31,9 @@ const App = () => {
             Page = Category
         } else if (pageName === 'articles') {
             Page = Article
-        }  
+        } else if (pageName === 'memoriam') {
+            Page = Memoriam
+        }
         return Page
     }, [pageName])
 
