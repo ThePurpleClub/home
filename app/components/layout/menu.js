@@ -167,17 +167,6 @@ export const Menu = ({ categories, articles, menuVisible }) => {
                         Contact
                     </a>
                 </li>
-                <li class="item">
-                    <i class="fas fa-monument icon" />
-                    <a
-                        href="${prefixUriIfNeeded('/memoriam')}"
-                        title="In Memoriam"
-                        class="item-link"
-                        onClick=${avoidReload}
-                    >
-                        In Memoriam
-                    </a>
-                </li>
             </ul>
             <hr class="separator" />
             <ul class="menu-list">
