@@ -17,8 +17,6 @@ export const Memoriam = () => html`
             max-width: 130%;
             vertical-align: middle;
             float: left;
-            margin-left: 5rem;
-            margin-right: 5rem;
             margin-bottom: 2rem;
             
         }
