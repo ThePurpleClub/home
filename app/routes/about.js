@@ -73,14 +73,15 @@ export const About = () => html`
             <div class="info">
                 <h1 class="info-title">The Birds of Prey Hub</h1>
                 <p>
-                    Hi! This is a demo site to showcase my love and interests in birds and raptors.
+                    Hi! This is a demo site to showcase my love and interest in birds and raptors.
                     Hopefully people will get inspired and be more aware of birds &
-                    animals conservation and even get into studying ornithology.
+                    animals conservation and even get into studying ornithology after visiting this site.
                 
-                    This web application uses Google Drive as the backend. Only a few static files are
+                    This web application uses Google Drive as the backend, only a few static files are
                     hosted on GitHub Pages, and the content is displayed with React JS.
 
-                    Hope y'all enjoy this site and hope it sparks your interests in birds and the natural world!
+                    Hope y'all enjoy this site and hope it sparks your interest in birds and the natural world!
+                    I will update this site and add posts of bird species regularly. Stay tuned!
                     Happy chirping!
                 </p>
             </div>
