@@ -71,9 +71,9 @@ export const Memoriam = () => html`
     <${Page}
         title="Bald Eagle"
         subtitle="Bald Eagle is the national symbol of the United States of America."
-        description=""The fierce beauty and proud
+        description="<cite>The fierce beauty and proud
         independence of this great bird aptly symbolizes the strength and freedom
-        of America. -John F. Kennedy""
+        of America. -John F. Kennedy</cite>"
         sidebarImage=${prefixUriIfNeeded('/assets/bald_eagle.jpg')}
         showLinks=${true}
     >
