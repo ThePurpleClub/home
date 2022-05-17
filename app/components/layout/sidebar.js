@@ -177,7 +177,7 @@ export const Sidebar = ({
                     </a>
                     <a
                         class="button"
-                        href="https://github.com/misterfresh/react-drive-cms/tree/master"
+                        href="https://github.com/potinmak/birds"
                         target="_blank"
                     >
                         Source on GitHub
