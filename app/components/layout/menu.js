@@ -146,7 +146,7 @@ export const Menu = ({ categories, articles, menuVisible }) => {
                     </a>
                 </li>
                 <li class="item">
-                    <i class="fas fa-feather-alt"></i>
+                    <i class="fas fa-user icon" />
                     <a
                         href="${prefixUriIfNeeded('/about')}"
                         title="About"
