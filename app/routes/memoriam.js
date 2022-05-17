@@ -71,9 +71,9 @@ export const Memoriam = () => html`
     <${Page}
         title="Bald Eagle"
         subtitle="Bald Eagle is the national symbol of the United States of America."
-        description="The fierce beauty and proud
+        description=""The fierce beauty and proud
         independence of this great bird aptly symbolizes the strength and freedom
-        of America. -John F. Kennedy"
+        of America. -John F. Kennedy""
         sidebarImage=${prefixUriIfNeeded('/assets/bald_eagle.jpg')}
         showLinks=${true}
     >
@@ -89,7 +89,7 @@ export const Memoriam = () => html`
                     
                 </p>
          
-                <p class="info-year"><i> 11/07/1984 - 01/20/2022 </i> </p>
+                <p class="info-year"><i> November 7th 1984 - January 20th 2022 </i> </p>
             </div>
         </div>
 
