@@ -74,7 +74,7 @@ export const Memoriam = () => html`
         description="The fierce beauty and proud
         independence of this great bird aptly symbolizes the strength and freedom
         of America. -John F. Kennedy"
-        sidebarImage=${prefixUriIfNeeded('/assets/bald_eagle_seattle.jpg')}
+        sidebarImage=${prefixUriIfNeeded('/assets/bald_eagle_seattle_.jpg')}
         showLinks=${true}
     >
         <div class="about-content">
