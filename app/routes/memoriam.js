@@ -84,9 +84,9 @@ export const Memoriam = () => html`
             />
             <div class="info">
                 <h1 class="info-title">James Edward Parker</h1>
-                <i class="fas fa-dove icon" />
+                
                 <p> 
-                    This site is built in memoriam of my mentor and friend, James Edward Parker.
+                    <i class="fas fa-dove"></i>This site is built in memoriam of my mentor and friend, James Edward Parker.
                     
                 </p>
          
