@@ -83,8 +83,9 @@ export const About = () => html`
                     Hope y'all enjoy this site and hope it sparks your interest in birds and the natural world!
                     I will update this site and add posts of bird species regularly. Stay tuned!
                     Happy chirping!
+                    <i>--Po Tin Mak</i>
                 </p>
-                <i>--Po Tin Mak</i>
+                
             </div>
         </div>
 
