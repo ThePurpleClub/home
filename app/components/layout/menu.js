@@ -146,7 +146,7 @@ export const Menu = ({ categories, articles, menuVisible }) => {
                     </a>
                 </li>
                 <li class="item">
-                    <i class="fas fa-feather-alt icon" />
+                    <i class="fas fa-kiwi-bird icon" />
              
                     <a
                         href="${prefixUriIfNeeded('/about')}"
@@ -169,7 +169,7 @@ export const Menu = ({ categories, articles, menuVisible }) => {
                     </a>
                 </li>
                 <li class="item">
-                    <i class="fas fa-paper-plane icon" />
+                    <i class="fas fa-feather-alt icon" />
                     <a
                         href="${prefixUriIfNeeded('/contact')}"
                         title="Contact"
