@@ -169,6 +169,17 @@ export const Menu = ({ categories, articles, menuVisible }) => {
                     </a>
                 </li>
                 <li class="item">
+                    <i class="far fa-music icon" />
+                    <a
+                        href="${prefixUriIfNeeded('/music')}"
+                        title="Musical Inspiration"
+                        class="item-link"
+                        onClick=${avoidReload}
+                    >
+                        Musical Inspiration
+                    </a>
+                </li>
+                <li class="item">
                     <i class="fas fa-feather-alt icon" />
                     <a
                         href="${prefixUriIfNeeded('/contact')}"
