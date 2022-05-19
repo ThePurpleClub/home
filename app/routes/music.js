@@ -88,7 +88,7 @@ export const Music = () => html`
                 class="home"
                 onClick=${avoidReload}
             >
-                Contact
+                Home
             </a>
         </footer>
     <//>
