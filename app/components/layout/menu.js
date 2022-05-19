@@ -157,28 +157,6 @@ export const Menu = ({ categories, articles, menuVisible }) => {
                         About
                     </a>
                 </li>
-                 <li class="item">
-                    <i class="fas fa-monument icon" />
-                    <a
-                        href="${prefixUriIfNeeded('/memoriam')}"
-                        title="Memoriam"
-                        class="item-link"
-                        onClick=${avoidReload}
-                    >
-                        In Memoriam
-                    </a>
-                </li>
-                <li class="item">
-                    <i class="fas fa-music icon" />
-                    <a
-                        href="${prefixUriIfNeeded('/music')}"
-                        title="Musical Inspiration"
-                        class="item-link"
-                        onClick=${avoidReload}
-                    >
-                        Musical Inspiration
-                    </a>
-                </li>
                 <li class="item">
                     <i class="fas fa-feather-alt icon" />
                     <a
@@ -190,6 +168,29 @@ export const Menu = ({ categories, articles, menuVisible }) => {
                         Contact
                     </a>
                 </li>
+                <li class="item">
+                    <i class="fas fa-music icon" />
+                    <a
+                        href="${prefixUriIfNeeded('/music')}"
+                        title="Musical Inspiration"
+                        class="item-link"
+                        onClick=${avoidReload}
+                    >
+                        Music
+                    </a>
+                </li>
+                 <li class="item">
+                    <i class="fas fa-monument icon" />
+                    <a
+                        href="${prefixUriIfNeeded('/memoriam')}"
+                        title="Memoriam"
+                        class="item-link"
+                        onClick=${avoidReload}
+                    >
+                        In Memoriam
+                    </a>
+                </li>
+            
             </ul>
             <hr class="separator" />
             <ul class="menu-list">
