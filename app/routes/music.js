@@ -63,11 +63,25 @@ export const Music = () => html`
             
             <div class="info">
                 <h1 class="info-title"> My Musical Inspiration</h1>
-                <p>
-                  --in construction--  
+                 <p>
+                    Prince has been my greatest musical inspiration of all time since I was a little child. 
+                    I remembered I had a chance of attending one of his packed show at Harbor Fest beside Victoria Harbor in October 2003. 
+                    He is the pioneer of Minneapolis sound.
+                    The Purple One has always been the greatest music icon on this planet. 
+                    Also, I love K-Pop and J-Pop. You can find those songs in my playlist down here.
+                    These songs resonate with my thoughts of missing my late friend.
                 </p>
-            
+                <p>
+                    I also love K-Pop and J-Pop. You can find those songs in my playlist down here.
+                    These songs resonate with my thoughts of missing my late friend. 
+                    I really wish he was still here. 
+                    Whenever I look up to the sky, when I see the moon shining high up above my head at night, I know that he is here.
+                </p>
+            <div>
+                <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/05wPNnG9hlNl5hRM6u2jEo?utm_source=generator" width="100%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
             </div>
+            
+           </div>
         </div>
         <footer>
             <a
