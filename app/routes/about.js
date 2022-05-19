@@ -84,7 +84,7 @@ export const About = () => html`
                     I will update this site and add posts of bird species regularly. Stay tuned!
                     Happy chirping!
                 </p>
-                <p> <i> --Po Tin Mak</i></p>
+                <p style="text-align: left;"> <i> --Po Tin Mak</i></p>
                 
             </div>
         </div>
