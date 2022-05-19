@@ -3,7 +3,7 @@ import { Page } from '../components/layout/page.js'
 import prefixUriIfNeeded from '../utils/prefixUriIfNeeded.js'
 import { avoidReload } from '../utils/avoidReload.js'
 
-export const About = () => html`
+export const Music = () => html`
     <style>
         .about-content {
             display: block;
