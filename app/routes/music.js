@@ -56,7 +56,7 @@ export const Music = () => html`
         title="Gyrfalcon"
         subtitle="The largest falcon in the world"
         description="Gyrfalcon is a strong and festy predator in the High Arctic. This bird is also the world's fastest bird and can fly with an average speed of 50-68 mph."
-        sidebarImage=${prefixUriIfNeeded('/assets/default-about.jpg')}
+        sidebarImage=${prefixUriIfNeeded('/assets/prince.jpeg')}
         showLinks=${true}
     >
         <div class="about-content">
@@ -67,15 +67,7 @@ export const Music = () => html`
             <div class="info">
                 <h1 class="info-title">The Birds of Prey Hub</h1>
                 <p>
-                    Hi! This is a demo site to showcase my love and interest in birds and raptors.
-                    Hopefully people will get inspired and be more aware of birds &
-                    animals conservation and even get into studying ornithology after visiting this site.
-                
-                    This web application uses Google Drive as the backend, only a few static files are
-                    hosted on GitHub Pages, and the content is displayed with React JS.
-                    Hope y'all enjoy this site and hope it sparks your interest in birds and the natural world!
-                    I will update this site and add posts of bird species regularly. Stay tuned!
-                    Happy chirping!
+                    --In Construction--
                 </p>
                 <p style="text-align: left;"> <i> --Po Tin Mak</i></p>
                 
@@ -83,7 +75,7 @@ export const Music = () => html`
         </div>
         <footer>
             <a
-                href="${prefixUriIfNeeded('/contact')}"
+                href="${prefixUriIfNeeded('/home')}"
                 class="contact"
                 onClick=${avoidReload}
             >
