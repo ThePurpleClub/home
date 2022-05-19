@@ -55,7 +55,7 @@ export const Music = () => html`
     <${Page}
         title="Prince Rogers Nelson"
         subtitle="The most prolific singer-songwriter and multi-instrumentalist in the world"
-        description="Born and raised in Minneapolis, US, The Purple One is a pioneer of Minneapolis sound, and always have an exceptional work ethnic and passion in music craftmanship."
+        description="Born and raised in Minneapolis, US, The Purple One is a pioneer of Minneapolis sound, and always has an exceptional work ethnic and passion for music craftmanship."
         sidebarImage=${prefixUriIfNeeded('/assets/prince.jpeg')}
         showLinks=${true}
     >
