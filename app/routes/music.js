@@ -65,7 +65,7 @@ export const Music = () => html`
                 <h1 class="info-title"> My Musical Inspiration</h1>
                  <p>
                     Prince has been my greatest musical inspiration of all time since I was a little child. 
-                    I remember I had a chance of attending his packed show at Harbor Fest beside Victoria Harbor back in October 2003. 
+                    I remember I had a chance of attending his packed show at Harbor Fest beside Victoria Harbor, Hong Kong, back in October 2003. 
                     The performance was phenomenal. I loved it even though I did not quite understand the lyrics as a kid at that time.
                     Prince is the pioneer of Minneapolis sound. I love all of his music.
                     The Purple One has always been the greatest music icon on this planet. 
