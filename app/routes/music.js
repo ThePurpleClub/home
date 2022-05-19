@@ -69,8 +69,6 @@ export const Music = () => html`
                     The performance was phenomenal. I loved it even though I did not quite understand the lyrics as a kid at that time.
                     Prince is the pioneer of Minneapolis sound. I love all of his music.
                     The Purple One has always been the greatest music icon on this planet. 
-                    In addition, I love K-Pop and J-Pop. You can find those songs in my playlist down here.
-                    These songs resonate with my thoughts of missing my late friend.
                 </p>
                 <p>
                     I also love K-Pop and J-Pop. You can find those songs in my playlist down there.
