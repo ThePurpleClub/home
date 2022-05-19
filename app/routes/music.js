@@ -62,9 +62,9 @@ export const Music = () => html`
         <div class="about-content">
             
             <div class="info">
-                <h1 class="info-title"> My musical inspiration</h1>
+                <h1 class="info-title"> My Musical Inspiration</h1>
                 <p>
-                    
+                  --in construction--  
                 </p>
             
             </div>
