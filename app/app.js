@@ -16,6 +16,7 @@ import { Contact } from './routes/contact.js'
 import { Home } from './routes/home.js'
 import { getActiveItemId, getPageName } from './utils/path.js'
 import { Memoriam } from './routes/memoriam.js'
+import { Music } from './routes/music.js'
 
 const App = () => {
     const [state, dispatch] = useReducer(reducer, initialState)
@@ -33,6 +34,8 @@ const App = () => {
             Page = Article
         } else if (pageName === 'memoriam') {
             Page = Memoriam
+        } else if (pageName === 'music'){
+            Page = Music
         }
         return Page
     }, [pageName])
