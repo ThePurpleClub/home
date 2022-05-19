@@ -72,9 +72,9 @@ export const Music = () => html`
                     These songs resonate with my thoughts of missing my late friend.
                 </p>
                 <p>
-                    I also love K-Pop and J-Pop. You can find those songs in my playlist down here.
-                    These songs resonate with my thoughts of missing my late friend. 
-                    I really wish he was still here. 
+                    I also love K-Pop and J-Pop. You can find those songs in my playlist down there.
+                    These songs resonate with my thoughts of missing my late friend who are very good at coding. 
+                    I really wish he was still here, physically. But I know he is still here in spirit.
                     Whenever I look up to the sky, when I see the moon shining high up above my head at night, I know that he is here.
                 </p>
             <div>
