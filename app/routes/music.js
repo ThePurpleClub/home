@@ -56,21 +56,17 @@ export const Music = () => html`
         title="Gyrfalcon"
         subtitle="The largest falcon in the world"
         description="Gyrfalcon is a strong and festy predator in the High Arctic. This bird is also the world's fastest bird and can fly with an average speed of 50-68 mph."
-        sidebarImage=${prefixUriIfNeeded('/assets/prince.jpeg')}
+        sidebarImage=${prefixUriIfNeeded('/assets/prince2.jpeg')}
         showLinks=${true}
     >
         <div class="about-content">
-            <img
-                src=${prefixUriIfNeeded('/assets/logo.jpg')}
-                class="image"
-            />
+            
             <div class="info">
                 <h1 class="info-title">The Birds of Prey Hub</h1>
                 <p>
                     --In Construction--
                 </p>
-                <p style="text-align: left;"> <i> --Po Tin Mak</i></p>
-                
+            
             </div>
         </div>
         <footer>
