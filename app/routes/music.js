@@ -53,18 +53,18 @@ export const Music = () => html`
         }
     </style>
     <${Page}
-        title="Gyrfalcon"
-        subtitle="The largest falcon in the world"
-        description="Gyrfalcon is a strong and festy predator in the High Arctic. This bird is also the world's fastest bird and can fly with an average speed of 50-68 mph."
-        sidebarImage=${prefixUriIfNeeded('/assets/prince2.jpeg')}
+        title="Prince Rogers Nelson"
+        subtitle="The most prolific singer-songwriter and multi-instrumentalist in the world"
+        description="Born and raised in Minneapolis, US, The Purple One is a pioneer of Minneapolis sound, and always have an exceptional work ethnic and passion in music craftmanship."
+        sidebarImage=${prefixUriIfNeeded('/assets/prince2.jpg')}
         showLinks=${true}
     >
         <div class="about-content">
             
             <div class="info">
-                <h1 class="info-title">The Birds of Prey Hub</h1>
+                <h1 class="info-title">--In Construction--</h1>
                 <p>
-                    --In Construction--
+                    
                 </p>
             
             </div>
@@ -72,7 +72,7 @@ export const Music = () => html`
         <footer>
             <a
                 href="${prefixUriIfNeeded('/home')}"
-                class="contact"
+                class="home"
                 onClick=${avoidReload}
             >
                 Contact
