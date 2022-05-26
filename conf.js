@@ -4,7 +4,7 @@ window.appConf = {
     sendContactMessageUrlId:
         '1iRJ2eSlxCErysIdSuckAmhOfIBfLh0YcbclQD8vKCK9IJ0K_f9LGJSAS',
     shortname: 'easydrivecms',
-    root: 'birds',
+    root: 'blogs',
     ipInfoToken: '6efb7a808a4857',
     googleApiKey: 'AIzaSyBYOwC55SpcCZaG9d87UuHkxkQ8GRI_39M',
 }
