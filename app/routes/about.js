@@ -82,8 +82,6 @@ export const About = () => html`
                 <p>
                     This web application uses Google Drive as the backend, only a few static files are
                     hosted on GitHub Pages, and the content is displayed with React JS.
-                </p>
-                <p>
                     Hope y'all enjoy reading my posts, and hopefully the contents written on my posts are something y'all can relate to. Stay tuned!
                     Feel free to leave comments and connect with me here! Thank you! :)
                     Happy chirping!
