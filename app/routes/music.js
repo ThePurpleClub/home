@@ -56,7 +56,7 @@ export const Music = () => html`
         title="Prince Rogers Nelson"
         subtitle="The most prolific singer-songwriter and multi-instrumentalist in the world"
         description="Born and raised in Minneapolis, US, The Purple One is a pioneer of Minneapolis sound, and always has an exceptional work ethnic and passion for music craftmanship."
-        sidebarImage=${prefixUriIfNeeded('/assets/prince2.jpg')}
+        sidebarImage=${prefixUriIfNeeded('/assets/prince2.png')}
         showLinks=${true}
     >
         <div class="about-content">
@@ -70,6 +70,7 @@ export const Music = () => html`
                     Prince is the pioneer of Minneapolis sound. I love all of his music.
                     The Purple One has always been the greatest music icon on this planet. 
                 </p>
+                <h5> <i> Photo by Afshin Shahidi </i></h5>
             <div>
                 <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/05wPNnG9hlNl5hRM6u2jEo?utm_source=generator" width="100%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
             </div>
