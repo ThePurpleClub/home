@@ -75,7 +75,7 @@ export const About = () => html`
                 <p>
                     Hi! This is my blog profolio site. This blog orginally started with an intention of showing
                     my appreciation and interests in raptors. However, as I have been through different things lately
-                    and started to have different goals in life. The contents of the blog is shifting to different things in 
+                    and started to have different goals in life, the contents of the blog is shifting to different things in 
                     life. I maybe posting stuff about birds and later I maybe posting stuff about my favourite place to live.
                     You never know! 
                 </p>
