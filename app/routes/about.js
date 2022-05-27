@@ -73,15 +73,19 @@ export const About = () => html`
             <div class="info">
                 <h1 class="info-title">The Birds of Prey Hub</h1>
                 <p>
-                    Hi! This is a demo site to showcase my love and interest in birds and raptors.
-                    Hopefully people will get inspired and be more aware of birds &
-                    animals conservation and even get into studying ornithology after visiting this site.
-                
+                    Hi! This is my blog profolio site. This blog orginally started with an intention of showing
+                    my appreciation and interests in raptors. However, as I have been through different things lately
+                    and started to have different goals in life. The contents of the blog is shifting to different things in 
+                    life. I maybe posting stuff about birds and later I maybe posting stuff about my favourite place to live.
+                    You never know! 
+                </p>
+                <p>
                     This web application uses Google Drive as the backend, only a few static files are
                     hosted on GitHub Pages, and the content is displayed with React JS.
-
-                    Hope y'all enjoy this site and hope it sparks your interest in birds and the natural world!
-                    I will update this site and add posts of bird species regularly. Stay tuned!
+                </p>
+                <p>
+                    Hope y'all enjoy reading my posts, and hopefully the contents written on my posts are something y'all can relate to. Stay tuned!
+                    Feel free to leave comments and connect with me here! Thank you! :)
                     Happy chirping!
                 </p>
                 <p style="text-align: left;"> <i> --Po Tin Mak</i></p>
