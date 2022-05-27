@@ -13,7 +13,7 @@ export const Menu = ({ categories, articles, menuVisible }) => {
     }, [categories])
     return html` <style>
             .menu {
-                background-color: #99cc00; <!--#333 -->
+                background-color: #f06236; <!--#333 -->
                 overflow: hidden;
                 z-index: 10;
                 display: block;
