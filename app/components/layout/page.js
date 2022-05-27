@@ -55,10 +55,6 @@ export const Page = ({
                 width: 100%;
                 margin-left: 0;
             }
-            img {
-                   max-width: 100%;
-                   display: block;
-                  }
             @media (min-width: 768px) {
                 main.page-main {
                     display: block;
