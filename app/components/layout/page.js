@@ -33,7 +33,7 @@ export const Page = ({
                 opacity: 1;
                 width: 100%;
                 display: block;
-                transition: width linear 750ms;
+                transition: width linear 1000ms; /***********************changed speed*************/
                 margin: 0;
                 padding: 0;
                 overflow-x: hidden;
@@ -47,7 +47,7 @@ export const Page = ({
                 padding: 5rem;
                 overflow-x: hidden;
                 max-width: 100%;
-                transition: width linear 750ms;
+                transition: width linear 1000ms; /***************************changed speed*************/
                 width: 100%;
                 margin-left: 0;
             }
