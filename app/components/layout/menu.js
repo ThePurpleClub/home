@@ -13,16 +13,16 @@ export const Menu = ({ categories, articles, menuVisible }) => {
     }, [categories])
     return html` <style>
             .menu {
-                background-color: #f06236; <!--#333 -->
+                background-color: #f06236; /**************************orange menu*************************/
                 overflow: hidden;
                 z-index: 10;
                 display: block;
                 top: 0;
                 left: 0;
                 height: 100%;
-                box-shadow: #000 2px 2px 10px;
+                box-shadow: #000 3px 3px 15px; /***************change to a bigger shadow**************/
                 padding-top: 5rem;
-                transition: opacity linear 750ms, width linear 750ms;
+                transition: opacity linear 1000ms, width linear 1000ms; /******************changed speed******************/
                 width: 0;
                 opacity: 0;
                 padding-right: 0;
@@ -50,8 +50,14 @@ export const Menu = ({ categories, articles, menuVisible }) => {
 
             .icon {
                 padding: 0 20px;
-                color: #dadada;
                 font-size: 1.6rem;
+                color: #fff; /**********************changed bg color**************************/
+                transition: all 1s ease-in-out; /*******************changed transition*******************/
+            }
+            
+            .icon:hover {
+                color: #6236f0; /**************changed icon color when hovered****************/
+                transition: all 1s ease-in-out; /**************changed transition****************/
             }
             .menu ul.menu-list {
                 padding: 10px 0;
@@ -65,9 +71,18 @@ export const Menu = ({ categories, articles, menuVisible }) => {
                 list-style: none;
                 padding: 10px 0;
                 font-size: 1.6rem;
+                transition: all 1s ease-in-out; /************added transition when hovered**************/
+            }
+            .item:hover {
+                color: #0036fd; /************************changed icon color to navy when hovered*************/
+                outline: 0; /***************added outline******************/
+                transition: all 1s ease-in-out; /************added transition when hovered************/
+            }
+            .item:focus {
+                outline: 0; /***********re-focus************/
             }
             .item-link {
-                color: #dadada;
+                color: #fff; /************changed bg color**********************/
                 font-weight: 500;
                 font-size: large;
                 border-bottom: 0 transparent;
@@ -76,10 +91,12 @@ export const Menu = ({ categories, articles, menuVisible }) => {
                 border: 0;
                 cursor: pointer;
                 font-family: Arial;
+                transition: all 1s ease-in-out;  /*************added Fade in effect***************/
             }
             .item-link:hover {
-                color: #fff;
+                color: #0036fd; /***********************changed bg color to blue*************/
                 outline: 0;
+                transform: scale(1.2); /*************text would be larger when hovered*************/
             }
             .item-link:focus {
                 outline: 0;
@@ -87,9 +104,9 @@ export const Menu = ({ categories, articles, menuVisible }) => {
             .separator {
                 margin: 20px auto;
                 display: block;
-                border: 1px solid #dededc;
+                border: 1px solid #fff; /*************changed color************/
                 height: 0;
-                width: 40%;
+                width: 50%;  /*******************changed width***************/
             }
             .sub-list {
                 margin-left: 15px;
@@ -127,9 +144,28 @@ export const Menu = ({ categories, articles, menuVisible }) => {
                 top: 10px;
                 font-family: Arial;
             }
+            /***************************changed underline hover effect********************************/
+            .sub-item-link::before {
+                content: '';
+                position: absolute;
+                width: 100%;
+                height: 1px;
+                border-radius: 1px;
+                background-color: #00ccff;
+                bottom: 0;
+                left: 0;
+                transform-origin: right;
+                transform: scaleX(0);
+                transition: transform .3s ease-in-out;
+            }
+            .sub-item-link:hover::before {
+                transform-origin: left;
+                transform: scaleX(1);
+              }
+            /************************************************************************************************/
             .sub-item-link:hover {
                 border-bottom: none;
-                color: #fff;
+                color: #00ccff; /************************/
             }
         </style>
         <nav id="menu" class="menu ${menuVisible ? 'menu-open' : ''}">
