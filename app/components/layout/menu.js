@@ -20,7 +20,7 @@ export const Menu = ({ categories, articles, menuVisible }) => {
                 top: 0;
                 left: 0;
                 height: 100%;
-                box-shadow: #000 3px 3px 15px; /***************change to a bigger shadow**************/
+                box-shadow: #000 2px 2px 10px;
                 padding-top: 5rem;
                 transition: opacity linear 1000ms, width linear 1000ms; /******************changed speed******************/
                 width: 0;
