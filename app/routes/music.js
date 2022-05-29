@@ -69,6 +69,7 @@ export const Music = () => html`
                     The performance was phenomenal. I loved it even though I did not quite understand the lyrics as a kid at that time.
                     Prince is the pioneer of Minneapolis sound. I love all of his music.
                     The Purple One has always been the greatest music icon on this planet. 
+                    His music and legacy will live on forever.
                 </p>
                 <p> My favourite quote of Prince would be -- </p>
                 <p><i> "I can't be played, a person trying to play me play themselves." </i></p> 
