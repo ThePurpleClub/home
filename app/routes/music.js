@@ -70,6 +70,8 @@ export const Music = () => html`
                     Prince is the pioneer of Minneapolis sound. I love all of his music.
                     The Purple One has always been the greatest music icon on this planet. 
                 </p>
+                <p> My favourite quote of Prince would be -- </p>
+                <p><i> "I can't be played, a person trying to play me play themselves." </i></p> 
                 <h5> <i> Left Photo by Afshin Shahidi </i></h5> <!--********************updated photo credits******/ -->
             <div>
                 <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/05wPNnG9hlNl5hRM6u2jEo?utm_source=generator" width="100%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
