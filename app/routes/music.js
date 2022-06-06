@@ -71,7 +71,6 @@ export const Music = () => html`
                     The Purple One has always been the greatest music icon on this planet. 
                     His music and legacy will live on forever.
                 </p>
-                <p> My favourite quote of Prince: </p>
                 <p><i> "I can't be played, a person trying to play me play themselves." </i>~Prince Rogers Nelson</p> 
                 
             <div>
