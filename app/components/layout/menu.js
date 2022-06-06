@@ -194,17 +194,6 @@ export const Menu = ({ categories, articles, menuVisible }) => {
                     </a>
                 </li>
                 <li class="item">
-                    <i class="fas fa-feather-alt icon" />
-                    <a
-                        href="${prefixUriIfNeeded('/contact')}"
-                        title="Contact"
-                        class="item-link"
-                        onClick=${avoidReload}
-                    >
-                        Contact
-                    </a>
-                </li>
-                <li class="item">
                     <i class="fas fa-music icon" />
                     <a
                         href="${prefixUriIfNeeded('/music')}"
@@ -213,6 +202,17 @@ export const Menu = ({ categories, articles, menuVisible }) => {
                         onClick=${avoidReload}
                     >
                         Music
+                    </a>
+                </li>
+                <li class="item">
+                    <i class="fas fa-feather-alt icon" />
+                    <a
+                        href="${prefixUriIfNeeded('/contact')}"
+                        title="Contact"
+                        class="item-link"
+                        onClick=${avoidReload}
+                    >
+                        Contact
                     </a>
                 </li>
                  <li class="item">
