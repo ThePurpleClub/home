@@ -22,12 +22,12 @@ export const Chinese = () => html`
         .info-title {
             margin: 30px 0 20px;
             font-size: 3.8rem;
-            font-family: Noto Sans JP', sans-serif; /**************adding font family attributes***********/
+            font-family: 'Noto Sans JP', sans-serif; /**************adding font family attributes***********/
         }
         .info p {
             font-size: 2rem;
             margin: 0 0 30px;
-            font-family: Noto Sans JP', sans-serif; /**************adding font family attributes***********/
+            font-family: 'Noto Sans JP', sans-serif; /**************adding font family attributes***********/
             font-weight: 100; /**************adding font weight********************/
         }
         footer {
