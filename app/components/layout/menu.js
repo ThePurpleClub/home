@@ -12,6 +12,7 @@ export const Menu = ({ categories, articles, menuVisible }) => {
         setActiveCategory(Object.values(categories)?.[0]?.id)
     }, [categories])
     return html` <style>
+    @import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&family=Joan&family=Noto+Sans+JP:wght@100;400&family=Noto+Serif+JP:wght@200;400;500&family=Playfair+Display&display=swap');
             .menu {
                 background-color: #f06236; /**************************orange menu*************************/
                 overflow: hidden;
@@ -136,13 +137,13 @@ export const Menu = ({ categories, articles, menuVisible }) => {
                 font-size: medium;
                 position: relative;
                 color: #dadada;
-                font-weight: 500;
+                font-weight: 100; /***************************changed font weight***************/
                 border-bottom: 0 transparent;
                 text-decoration: none;
                 background-color: transparent;
                 font-style: normal;
                 top: 10px;
-                font-family: Arial;
+                font-family: 'Noto Sans JP', sans-serif;/***************************changed font style***********************/
             }
             /***************************changed underline hover effect********************************/
             .sub-item-link::before {
@@ -191,6 +192,28 @@ export const Menu = ({ categories, articles, menuVisible }) => {
                         onClick=${avoidReload}
                     >
                         About
+                    </a>
+                </li>
+                <li class="item">
+                    <i class="fas fa-robot icon" />
+                    <a
+                        href="${prefixUriIfNeeded('/japanese')}"
+                        title="日本語"
+                        class="item-link"
+                        onClick=${avoidReload}
+                    >
+                        日本語
+                    </a>
+                </li>
+                 <li class="item">
+                    <i class="fas fa-ship icon" />
+                    <a
+                        href="${prefixUriIfNeeded('/chinese')}"
+                        title="繁體中文"
+                        class="item-link"
+                        onClick=${avoidReload}
+                    >
+                    繁體中文
                     </a>
                 </li>
                 <li class="item">
