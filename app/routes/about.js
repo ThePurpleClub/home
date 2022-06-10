@@ -4,6 +4,8 @@ import prefixUriIfNeeded from '../utils/prefixUriIfNeeded.js'
 import { avoidReload } from '../utils/avoidReload.js'
 
 export const About = () => html`
+ /*************************************adding font family imports***********************************/
+    @import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&family=Joan&family=Noto+Sans+JP&family=Noto+Serif+JP:wght@200;400;500&family=Playfair+Display&display=swap');
     <style>
         .about-content {
             display: block;
@@ -24,12 +26,14 @@ export const About = () => html`
             font-size: 3.8rem;
             font-weight: 700;
             line-height: 1.1;
-            font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
+            font-family: 'Noto Serif JP', serif;/**************adding font family attributes***********/
         }
 
         .info p {
             font-size: 2rem;
             margin: 0 0 30px;
+            font-family: 'Noto Serif JP', serif; /**************adding font family attributes***********/
+            font-weight: 100; /**************adding font weight********************/
         }
 
         footer {
@@ -60,7 +64,7 @@ export const About = () => html`
     </style>
     <${Page}
         title="Gyrfalcon"
-        subtitle="The largest falcon in the world"
+        subtitle="This is the largest falcon in the world."
         description="Gyrfalcon is a strong and festy predator in the High Arctic. This bird is also the world's fastest bird and can fly with an average speed of 50-68 mph."
         sidebarImage=${prefixUriIfNeeded('/assets/default-about.jpg')}
         showLinks=${true}
@@ -73,20 +77,20 @@ export const About = () => html`
             <div class="info">
                 <h1 class="info-title">The Birds of Prey Hub</h1>
                 <p>
-                    Hi! This is my portfolio site. This blog originally started with an intention of showing
+                    Hello! This is my personal website. This site orginally started with an intention of showing
                     my appreciation and interest in raptors. However, as I have been through different things lately
-                    and started to have different goals in life, the contents of the blog are shifting to different things in
-                    life. I maybe posting stuff about birds and later I maybe posting stuff about my favourite place to live.
-                    You never know! 
-                </p>
-                <p>
-                    This web application uses Google Drive as the backend, only a few static files are
-                    hosted on GitHub Pages, and the content is displayed with React JS.
-                    Hope y'all enjoy reading my posts, and hopefully the contents written on my posts are something y'all can relate to. Stay tuned!
-                    Feel free to leave comments and connect with me here! Thank you! :)
+                    and starting to discover new goals in life, the contents of the blog is shifting to different things in 
+                    life, but I will still make posts about birds for sure.
+                    I maybe posting stuff about birds and later I maybe posting stuff about my favorite place to live.
+                    You never know!  
+                    This web application uses Google Drive as the backend, and only a few static files are
+                    hosted on GitHub Pages. The content is displayed with React JS.
+                    Hope you enjoy reading my posts, and hopefully the contents displayed on this site are something you can relate to. Stay tuned!
+                    Feel free to leave comments and connect with me here! Thank you! 
                     Happy chirping!
                 </p>
-                <p style="text-align: left;"> <i> --Po Tin Mak</i></p>
+                <P>***** WARNING: For better user experiences of reading blog posts underneath the white line on the orange menu, please use desktop computer to view the posts. ***** </P>
+                <p style="text-align: left;"> <i>~Po Tin Mak</i></p>
                 
             </div>
         </div>
