@@ -10,7 +10,7 @@ export const Article = ({ article, category }) => html`
             padding: 30px 0;
             display: block;
             border-bottom: solid 1px #f5f5f5;
-            width: auto;
+            width: 100%;
         }
         article .title {
             text-decoration: none;
