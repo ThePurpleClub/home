@@ -42,6 +42,7 @@ export const Memoriam = () => html`
             font-size: 2rem;
             margin: 0 0 30px;
             font-family: 'Noto Serif JP', serif; /**************adding font family attributes***********/
+            font-weight: 200; /**********************added font weight***********************************/
         }
 
         footer {
