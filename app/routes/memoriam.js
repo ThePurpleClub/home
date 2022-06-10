@@ -4,6 +4,8 @@ import prefixUriIfNeeded from '../utils/prefixUriIfNeeded.js'
 import { avoidReload } from '../utils/avoidReload.js'
 
 export const Memoriam = () => html`
+@import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&family=Joan&family=Noto+Sans+JP:wght@100;400&family=Noto+Serif+JP:wght@200;400;500&family=Playfair+Display&display=swap');
+
     <style>
         .about-content {
             display: block;
@@ -26,7 +28,7 @@ export const Memoriam = () => html`
         .info-year {
             margin: 30px 0 20px;
             font-size: 2rem;
-            font-family: 'imes New Roman', Times, serif;
+            font-family: 'Noto Serif JP', serif; /**************adding font family attributes***********/
         }
 
         .info-title {
@@ -34,12 +36,13 @@ export const Memoriam = () => html`
             font-size: 3.8rem;
             font-weight: 700;
             line-height: 1.1;
-            font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
+            font-family: 'Noto Serif JP', serif; /**************adding font family attributes***********/
         }
 
         .info p {
             font-size: 2rem;
             margin: 0 0 30px;
+            font-family: 'Noto Serif JP', serif; /**************adding font family attributes***********/
         }
 
         footer {
