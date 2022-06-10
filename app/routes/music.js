@@ -5,6 +5,8 @@ import { avoidReload } from '../utils/avoidReload.js'
 
 export const Music = () => html`
     <style>
+    /**************adding font family imports***********/
+    @import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&family=Joan&family=Noto+Sans+JP:wght@100;400&family=Noto+Serif+JP:wght@200;400;500&family=Playfair+Display&display=swap');
         .about-content {
             display: block;
         }
@@ -22,7 +24,7 @@ export const Music = () => html`
             font-size: 3.8rem;
             font-weight: 700;
             line-height: 1.1;
-            font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
+            font-family: 'Noto Serif JP', serif; /**************adding font family attributes***********/
         }
         .info p {
             font-size: 2rem;
@@ -33,8 +35,8 @@ export const Music = () => html`
             font-size: 1.4rem;
             letter-spacing: 1px;
             font-weight: 700;
-            font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
-            text-transform: uppercase;
+            font-family: 'Noto Serif JP', serif; /**************adding font family attributes***********/
+            font-weight: 100; /**************adding font weight********************/
         }
         footer a.contact {
             text-decoration: none;
@@ -74,7 +76,7 @@ export const Music = () => html`
                 <p><i> "I can't be played, a person trying to play me play themselves." </i>~Prince Rogers Nelson</p> 
                 
             <div>
-                <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/05wPNnG9hlNl5hRM6u2jEo?utm_source=generator" width="100%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+                <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/05wPNnG9hlNl5hRM6u2jEo?utm_source=generator" width="100%" height="500" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
             </div> <!--********************added spotify API*******************/ -->
             
            </div>
