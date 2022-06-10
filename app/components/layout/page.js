@@ -22,12 +22,15 @@ export const Page = ({
     usePageMeta(title, subtitle)
 
     return html` <style>
+    /**************************importing new font families******************************/
+    @import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&family=Joan&family=Noto+Sans+JP&family=Noto+Serif+JP:wght@200;400;500&family=Playfair+Display&display=swap');
             ${buttonsStyles} ${blocksStyles} .page {
                 display: flex;
                 width: 100%;
                 justify-content: flex-end;
                 overflow-x: hidden;
                 max-width: 100%;
+                font-family: 'Noto Serif JP', serif;/**************************adding font family attributes************************/
             }
             main.page-main {
                 opacity: 1;
