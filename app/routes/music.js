@@ -35,8 +35,8 @@ export const Music = () => html`
             font-size: 1.4rem;
             letter-spacing: 1px;
             font-weight: 700;
-            font-family: 'Noto Serif JP', serif; /**************adding font family attributes***********/
-            font-weight: 100; /**************adding font weight********************/
+            font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
+            text-transform: uppercase;
         }
         footer a.contact {
             text-decoration: none;
