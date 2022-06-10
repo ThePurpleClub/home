@@ -148,11 +148,13 @@ export const Contact = ({ state, dispatch }) => {
     }
 
     return html` <style>
+    /**************adding font family imports***********/
+   @import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&family=Joan&family=Noto+Sans+JP:wght@100;400&family=Noto+Serif+JP:wght@200;400;500&family=Playfair+Display&display=swap');
             ${inputStyles} .contact-title {
                 font-size: 2.6rem;
                 margin-top: 20px;
-                font-family: inherit;
-                font-weight: 500;
+                font-family: 'Noto Serif JP', serif;/**************adding font family attributes***********/
+                font-weight: 700; /**************adding font weight********************/
                 line-height: 1.1;
                 color: inherit;
                 margin-bottom: 10px;
@@ -162,12 +164,12 @@ export const Contact = ({ state, dispatch }) => {
             }
             form label {
                 font-size: 2rem;
-                font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
-                font-weight: 700;
+                font-family: 'Noto Serif JP', serif;/**************adding font family attributes***********/
+                font-weight: 500; /**************adding font weight********************/
                 margin: 15px 0 0;
             }
             form button {
-                font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
+                font-family: 'Noto Serif JP', serif;/**************adding font family attributes***********/
             }
             form button .spinner {
                 margin-right: 1rem;
