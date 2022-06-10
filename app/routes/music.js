@@ -29,6 +29,8 @@ export const Music = () => html`
         .info p {
             font-size: 2rem;
             margin: 0 0 30px;
+            font-family: 'Noto Serif JP', serif; /**************adding font family attributes***********/
+            font-weight: 200; /**************adding font family font weight***********/
         }
         footer {
             padding: 10px 0;
