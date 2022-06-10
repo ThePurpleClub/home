@@ -56,7 +56,7 @@ export const Chinese = () => html`
     </style>
     <${Page}
         title="黑臉琵鷺 (Black-faced Spoonbill)"
-        subtitle="黑面琵鷺有着扁平如湯匙狀的長嘴，與中國樂器中的琵琶極為相似，因而得名。在香港，你可以在后海灣一帶，包括米埔自然保護區及香港濕地公園， 看見他們的蹤影。"
+        subtitle="黑面琵鷺有着扁平如湯匙狀的長嘴，與中國樂器中的琵琶極為相似，因而得名。"
         description="
         在2021年，后海灣（包括香港及深圳）只錄得336隻黑面琵鷺，按年下跌6.9%，在過去7年間跌幅達15%。黑臉琵鷺的棲息地后海灣持續受發展威脅，將來或進一步惡化。 ~香港觀鳥會"
         sidebarImage=${prefixUriIfNeeded('/assets/black_faced_spoonbill.jpg')}
