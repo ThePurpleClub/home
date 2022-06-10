@@ -72,6 +72,8 @@ export const Music = () => html`
                     Prince is the pioneer of Minneapolis sound. I love all of his music.
                     The Purple One has always been the greatest music icon on this planet. 
                     His music and legacy will live on forever.
+                    This Spotify playlist also includes songs of other musicians as those are also my favorites. 
+                    Enjoy!
                 </p>
                 <p><i> "I can't be played, a person trying to play me play themselves." </i>~Prince Rogers Nelson</p> 
                 
