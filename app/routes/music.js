@@ -75,7 +75,7 @@ export const Music = () => html`
                     This Spotify playlist also includes songs of other musicians as those are also my favorites. 
                     Enjoy!
                 </p>
-                <p><i> "I can't be played, a person trying to play me play themselves." </i>~Prince Rogers Nelson</p> 
+                <p><i> "Ego is one thing, money is one thing, but reverence for life and service to others is the key to getting off this planet." </i>~Prince Rogers Nelson</p> 
                 
             <div>
                 <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/05wPNnG9hlNl5hRM6u2jEo?utm_source=generator" width="100%" height="500" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
