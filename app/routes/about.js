@@ -90,7 +90,7 @@ export const About = () => html`
                     Happy chirping!
                 </p>
                 <P>***** WARNING: For better user experiences of reading blog posts underneath the white line on the orange menu, please use desktop computer to view the posts. ***** </P>
-                <p style="text-align: left;"> <i>~Po Tin Mak</i></p>
+                <p style="text-align: left;"> <i>~Po Tin Mak Elly</i></p>
                 
             </div>
         </div>
