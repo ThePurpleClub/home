@@ -105,7 +105,7 @@ export const Page = ({
                 }
             }
         </style>
-        <div class="wrapper page" style="width:100%; height:auto;">
+        <div class="wrapper page">
             <${MenuBurger} toggleMenuVisible=${toggleMenuVisible} />
             <${Menu}
                 articles=${articles}
