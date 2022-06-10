@@ -4,8 +4,8 @@ import prefixUriIfNeeded from '../utils/prefixUriIfNeeded.js'
 import { avoidReload } from '../utils/avoidReload.js'
 
 export const About = () => html`
- /*************************************adding font family imports***********************************/
     <style>
+    /*************************************adding font family imports***********************************/
     @import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&family=Joan&family=Noto+Sans+JP&family=Noto+Serif+JP:wght@200;400;500&family=Playfair+Display&display=swap');
         .about-content {
             display: block;
