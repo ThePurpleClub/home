@@ -9,6 +9,8 @@ export const Sidebar = ({
     showLinks,
 }) => {
     return html` <style>
+    /**************************importing new font styles******************************/
+    @import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&family=Joan&family=Noto+Sans+JP&family=Noto+Serif+JP:wght@400;500&&family=Playfair+Display&display=swap');
             aside.sidebar {
                 justify-content: flex-start;
                 align-items: flex-end;
@@ -104,8 +106,9 @@ export const Sidebar = ({
                 margin-bottom: 0;
                 font-size: 3.4rem;
                 text-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
-                font-weight: 700;
-                font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
+                font-family: 'Noto Serif JP', serif;/***********************changing font family******************************/
+                font-weight: 700; /***************changing font weight******************/
+                
             }
 
             aside.sidebar .primary p {
