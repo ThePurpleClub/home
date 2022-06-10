@@ -107,15 +107,16 @@ export const Sidebar = ({
                 font-size: 3.4rem;
                 text-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
                 font-family: 'Noto Serif JP', serif;/***********************changing font family******************************/
-                font-weight: 700; /***************changing font weight******************/
+                font-weight: 500; /***************changing font weight******************/
                 
             }
 
             aside.sidebar .primary p {
                 margin-bottom: 1rem;
                 text-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
-                line-height: 2.4rem;
-                font-size: 1.8rem;
+                line-height: 2rem; /***************changed line height******************/
+                font-size: 1.6rem; /******************changed font size*****************/
+                font-weight: 100; /***************changed font weight******************/
             }
 
             aside.sidebar .links: {
