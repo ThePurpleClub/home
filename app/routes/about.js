@@ -70,10 +70,6 @@ export const About = () => html`
         showLinks=${true}
     >
         <div class="about-content">
-            <img
-                src=${prefixUriIfNeeded('/assets/logo.jpg')}
-                class="image"
-            />
             <div class="info">
                 <h1 class="info-title">The Birds of Prey Hub</h1>
                 <p>
