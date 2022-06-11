@@ -64,6 +64,10 @@ export const Japanese = () => html`
             
             <div class="info">
                 <h1 class="info-title">自己紹介（じこしょうかい）</h1>
+                <img
+                src=${prefixUriIfNeeded('/assets/purple.jpg')}
+                class="image"
+                />
                 <p> みなさん､ はじめまして。
                     エリーです。
                     ミネソタ大学を卒业する予定でございます。
