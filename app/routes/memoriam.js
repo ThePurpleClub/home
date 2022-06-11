@@ -81,10 +81,12 @@ export const Memoriam = () => html`
         showLinks=${true}
     >
         <div class="about-content">
-            <img
-                src=${prefixUriIfNeeded('/assets/JamesParker.jpg')}
-                class="image"
-            />
+            <a href="https://willwerscheid.com/tribute/details/267398/James-Parker/obituary.html#tribute-start" target="_blank">
+                <img
+                    src=${prefixUriIfNeeded('/assets/JamesParker.jpg')}
+                    class="image"
+                />
+            </a>
             <div class="info">
                 <h1 class="info-title">James Edward Parker</h1>
                 
