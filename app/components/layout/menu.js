@@ -28,6 +28,7 @@ export const Menu = ({ categories, articles, menuVisible }) => {
                 opacity: 0;
                 padding-right: 0;
                 position: fixed;
+                overflow: auto;
             }
             .menu-open {
                 opacity: 1;
