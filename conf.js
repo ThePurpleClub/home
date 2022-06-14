@@ -2,7 +2,7 @@ window.appConf = {
     author: 'The Purple Hub',
     dashboardId: '1WYSZbWkOVJ1Hw7aetftM_j-j7n2_AOg-F6lWPyPP6qU',
     sendContactMessageUrlId:
-        'AKfycbxZlzysCLCQVqnHJjDwJJ-y_F7qroWw8TsohkyUoTHxZeQDb0xl2-8efiJqJ7lMFJBZ0w',
+        'AKfycbzKKZnJI6z6fRTKN6CPHoHhZOxsq_PRwSsI7z-sdTEIIXBv0rN_czT1oPJvOhSPN_hOQg',
     shortname: 'easydrivecms',
     root: 'blogs',
     ipInfoToken: '0efb550629ccad',
