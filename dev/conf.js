@@ -1,5 +1,5 @@
 window.appConf = {
-    author: 'React Drive CMS',
+    author: 'The Purple Hub',
     dashboardId: '1WYSZbWkOVJ1Hw7aetftM_j-j7n2_AOg-F6lWPyPP6qU',
     sendContactMessageUrlId:
         '1YKpazzxBCeSXa2-cJzGCWgqdntWyhS3m4N5PlPWRcUqId54BO-aMBvbp',
