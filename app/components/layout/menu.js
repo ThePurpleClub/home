@@ -225,7 +225,7 @@ export const Menu = ({ categories, articles, menuVisible }) => {
                         class="item-link"
                         onClick=${avoidReload}
                     >
-                        I
+                        Inspire
                     </a>
                 </li>
                 <li class="item">
