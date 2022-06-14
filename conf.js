@@ -5,6 +5,6 @@ window.appConf = {
         '1YKpazzxBCeSXa2-cJzGCWgqdntWyhS3m4N5PlPWRcUqId54BO-aMBvbp',
     shortname: 'easydrivecms',
     root: 'blogs',
-    ipInfoToken: '6efb7a808a4857',
+    ipInfoToken: '0efb550629ccad',
     googleApiKey: 'AIzaSyDK37LHCky4_yIggqcKAYmFoXx6mryW7GM',
 }
