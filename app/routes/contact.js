@@ -219,7 +219,7 @@ export const Contact = ({ state, dispatch }) => {
             description="This eagle has a pale coloration on his feathers, the cause of this is unknown. But its eyes and feet are the normal color, and its health status is normal."
             sidebarImage=${prefixUriIfNeeded('/assets/white_bald_eagle.jpg')}
         >
-            <h3 class="contact-title">Let's keep in touch and send me an email! :D</h3>
+            <h3 class="contact-title">Contact us for further inquiries. </h3>
             <form>
                 <div>
                     <label for="name" class="required"> Your name </label>
