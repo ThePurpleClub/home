@@ -71,7 +71,7 @@ export const About = () => html`
     >
         <div class="about-content">
             <div class="info">
-                <h1 class="info-title">The Birds of Prey Hub</h1>
+                <h1 class="info-title">The Purple Hub</h1>
                 <h1 class="info-title"><i class="fas fa-flag-usa"></i></h1>
                 <p>
                     Hello! This is my personal website. This site orginally started with an intention of showing
