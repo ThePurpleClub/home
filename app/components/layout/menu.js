@@ -221,7 +221,7 @@ export const Menu = ({ categories, articles, menuVisible }) => {
                     <i class="fas fa-music icon" />
                     <a
                         href="${prefixUriIfNeeded('/music')}"
-                        title="Musical Inspiration"
+                        title="Inspire"
                         class="item-link"
                         onClick=${avoidReload}
                     >
