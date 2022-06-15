@@ -14,7 +14,7 @@ export const Menu = ({ categories, articles, menuVisible }) => {
     return html` <style>
     @import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&family=Joan&family=Noto+Sans+JP:wght@100;400&family=Noto+Serif+JP:wght@200;400;500&family=Playfair+Display&display=swap');
             .menu {
-                background-color: #f06236; /**************************orange menu*************************/
+                background-color: #810541; /**************************orange menu#f06236*************************/
                 overflow: hidden;
                 z-index: 10;
                 display: block;
