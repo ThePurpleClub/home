@@ -4,7 +4,7 @@ In 2022, the setup has a couple extra steps, mostly because of changes with the 
 - Google Spreadsheets API v3 has been discontinued and the update to the v4 requires the use of an API key that you need to configure in the Google Cloud Console
 - Sendgrid requires to create a verified sender account
 
-Live Demo: https://baldeagleflying.github.io/blogs/
+Live Demo: [https://baldeagleflying.github.io/blogs/]
 
 ### Features:
 - A dynamic site, but no backend to manage, no database, no server, no hosting & no maintenance (almost)
