@@ -21,7 +21,7 @@ export const MenuBurger = ({ toggleMenuVisible }) => {
                 align-items: center;
                 outline: 0;
                 border: 0;
-                background: #f06236; /****************changed background color****************/
+                background:#810541; /**************** #f06236changed background color****************/
                 transition: 1s ease-in-out; /******************************/
             }
             .menu-burger:hover {
