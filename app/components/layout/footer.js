@@ -135,7 +135,7 @@ export const Footer = ({
                 }
             }
             .profile {
-                width: 6rem;
+                width: 8.06rem;
                 padding: 0;
                 border: 0;
                 border-radius: 0%;
