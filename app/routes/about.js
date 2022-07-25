@@ -72,7 +72,10 @@ export const About = () => html`
         <div class="about-content">
             <div class="info">
                 <h1 class="info-title">The Purple Club</h1>
-                <h1 class="info-title"><i class="fas fa-flag-usa"></i></h1>
+               <img
+                src=${prefixUriIfNeeded('/assets/kyo.jpg')}
+                class="image"
+               />
                 <p>
                     Hello! This is my personal website. This site orginally started with an intention of showing
                     my appreciation and interest in raptors. However, as I have been through different things lately
