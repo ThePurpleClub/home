@@ -73,7 +73,7 @@ export const About = () => html`
             <div class="info">
                 <h1 class="info-title">The Purple Club</h1>
                 <img
-                src=${prefixUriIfNeeded('/assets/kyo.jpg')}
+                src=${prefixUriIfNeeded('/assets/キョロちゃん.jpg')}
                 class="image"
             />
                 <p>
