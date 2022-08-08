@@ -89,8 +89,6 @@ export const About = () => html`
                     Feel free to leave comments and connect with me here! Thank you! 
                     Happy chirping!
                 </p>
-                <P>***** WARNING: For better user experiences of reading blog posts on the purple menu, please use desktop computer to view the posts. ***** </P>
-                <p style="text-align: left;"> <i>~Po Tin Mak Elly</i></p>
                 
             </div>
         </div>
