@@ -89,6 +89,7 @@ export const About = () => html`
                     Feel free to leave comments and connect with me here! Thank you! 
                     Happy chirping!
                 </p>
+                <p style="text-align: left;"> <i>~Po Tin Mak Elly</i></p>
                 
             </div>
         </div>
