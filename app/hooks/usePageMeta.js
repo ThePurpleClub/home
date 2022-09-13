@@ -3,7 +3,7 @@ import { useEffect } from '../lib/htm-preact.js'
 export const usePageMeta = (title, subtitle) => {
     useEffect(() => {
         document.title = title
-            ? `${title} - The Purple Hub` /***********changed name******************/
+            ? `${title} - The Purple Club` /***********changed name******************/
             : 'The Purple Hub'
     }, [title])
 
