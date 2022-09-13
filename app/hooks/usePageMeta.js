@@ -4,7 +4,7 @@ export const usePageMeta = (title, subtitle) => {
     useEffect(() => {
         document.title = title
             ? `${title} - The Purple Club` /***********changed name******************/
-            : 'The Purple Hub'
+            : 'The Purple Club'
     }, [title])
 
     useEffect(() => {
