@@ -64,8 +64,8 @@ export const About = () => html`
     </style>
     <${Page}
         title="Gyrfalcon"
-        subtitle="This is the largest falcon in the world."
-        description="Gyrfalcon is a strong and festy predator in the High Arctic. This bird is also the world's fastest bird and can fly with an average speed of 50-68 mph."
+        subtitle=""
+        description="Gyrfalcon is a strong and festy predator in the High Arctic. They are also the world's fastest bird. They can fly with an average speed of 50-68 mph."
         sidebarImage=${prefixUriIfNeeded('/assets/default-about.jpg')}
         showLinks=${true}
     >
@@ -77,17 +77,8 @@ export const About = () => html`
                 class="image"
             />
                 <p>
-                    Hello! This is my personal website. This site orginally started with an intention of showing
-                    my appreciation and interest in raptors. However, as I have been through different things lately
-                    and starting to discover new goals in life, the contents of the blog is shifting to different things in 
-                    life, but I will still make posts about birds for sure.
-                    I maybe posting stuff about birds and later I maybe posting stuff about my favorite place to live.
-                    You never know!  
-                    This web application uses Google Drive as the backend, and only a few static files are
-                    hosted on GitHub Pages. The content is displayed with React JS.
-                    Hope you enjoy reading my posts, and hopefully the contents displayed on this site are something you can relate to. Stay tuned!
-                    Feel free to leave comments and connect with me here! Thank you! 
-                    Happy chirping!
+                   Hello! Welcome to The Purple Club. This is my personal blog where I write about things, people and animals that are surrounding my life.
+                   I hope that some of my stories would resonate with yours. Feel free to leave a comment in the posts. Thank you for your time and consideration.
                 </p>
                 <p style="text-align: left;"> <i>~Po Tin Mak Elly</i></p>
                 
