@@ -88,7 +88,7 @@ export const Sidebar = ({
                 padding: 5%;
                 background: rgba(50, 50, 50, 0.5);
                 color: #fafafa;
-                height: 28rem;
+                height: 25rem; /*2023 edits*/
                 width: 100%;
                 display: flex;
                 justify-content: flex-end;
@@ -98,7 +98,7 @@ export const Sidebar = ({
 
             aside.sidebar .primary {
                 border-bottom: solid 1px rgba(255, 255, 255, 0.3);
-                margin-bottom: 1.6rem;
+                margin-bottom: 1.2rem; /*2023 edits*/
             }
 
             aside.sidebar .primary h1 {
