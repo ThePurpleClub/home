@@ -133,7 +133,7 @@ export const Sidebar = ({
                 color: #fff;
                 margin-right: 20px;
                 margin-bottom: 0;
-                background-color: #337ab7;
+                background-color: #E6008E; /******changed button text color****/
                 font-weight: 400;
                 text-align: center;
                 touch-action: manipulation;
@@ -149,15 +149,15 @@ export const Sidebar = ({
 
             aside.sidebar .links a.button:hover {
                 color: #fff;
-                background-color: #286090;
-                border-color: #204d74;
+                background-color: #B4006F;  /******changed button text color****/
+                border-color: #B4006F;/******changed button text color****/
                 text-decoration: none;
             }
 
             aside.sidebar .links a.button:focus {
                 color: #fff;
-                background-color: #286090;
-                border-color: #122b40;
+                background-color: #B4006F;  /******changed button text color****/
+                border-color: #B4006F;/******changed button text color****/
                 text-decoration: none;
             }
         </style>
