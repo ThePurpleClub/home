@@ -217,6 +217,7 @@ export const Menu = ({ categories, articles, menuVisible }) => {
                     繁體中文
                     </a>
                 </li>
+                <!--
                 <li class="item">
                     <i class="fas fa-music icon" />
                     <a
@@ -228,6 +229,7 @@ export const Menu = ({ categories, articles, menuVisible }) => {
                         Inspiration
                     </a>
                 </li>
+                -->
                 <li class="item">
                     <i class="fas fa-feather-alt icon" />
                     <a
