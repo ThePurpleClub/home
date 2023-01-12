@@ -215,8 +215,8 @@ export const Contact = ({ state, dispatch }) => {
         </style>
         <${Page}
             title="Leukistic Bald Eagle"
-            subtitle="This is a leukistic bald eagle rescued in San Juan Islands, United States."
-            description="This eagle has a pale coloration on his feathers, the cause of this is unknown. But the color of his feet and eyes are normal, and its health status is normal."
+            subtitle=""
+            description="This eagle has a pale coloration on his feathers, the cause of this is unknown. But the colors of his feet and eyes are normal, and his health status is normal."
             sidebarImage=${prefixUriIfNeeded('/assets/white_bald_eagle.jpg')}
         >
             <h3 class="contact-title">Contact us for further inquiries. </h3>
