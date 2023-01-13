@@ -7,7 +7,7 @@ import { PostsAndCategories } from '../components/layout/postsAndCategories.js'
 export const Home = ({ state, dispatch }) => html` <${Page}
     title="WELCOME! 歡迎! いらっしゃいませ!"
     subtitle=""
-    description="This is a harpy eagle. Harpy eagles are originally from South America. Looking at their eyes, aren't this one a baddie?"
+    description="This is a harpy eagle. Harpy eagles are originally from South America. Looking at their eyes, isn't this one a baddie?"
     sidebarImage=${prefixUriIfNeeded('/assets/harpy_eagle_1.jpg')}
     showLinks=${true}
 >
