@@ -65,7 +65,7 @@ export const About = () => html`
     <${Page}
         title="Gyrfalcon"
         subtitle=""
-        description="Gyrfalcon is a strong and festy predator in the High Arctic. They are also the world's fastest bird. They can fly with an average speed of 50-68 mph."
+        description="Gyrfalcon is a strong and festy predator in the High Arctic. They are also the world's fastest bird. They can fly with an average speed of 50-68 mph. Photo: https://gilligalloubird.com/"
         sidebarImage=${prefixUriIfNeeded('/assets/default-about.jpg')}
         showLinks=${true}
     >
