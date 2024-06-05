@@ -57,8 +57,8 @@ export const Chinese = () => html`
     <${Page}
         title="黑臉琵鷺"
         subtitle=""
-        description="黑面琵鷺有着扁平如湯匙狀的長嘴，與中國樂器中的琵琶極為相似，因而得名。
-        在2021年，后海灣（包括香港及深圳）只錄得336隻黑面琵鷺，按年下跌6.9%，在過去7年間跌幅達15%。黑臉琵鷺的棲息地后海灣持續受發展威脅，將來或進一步惡化。 ~香港觀鳥會"
+        description="黑面琵鷺（學名：Platalea minor），又名黑臉琵鷺、小琵鷺、黑面鷺、黑琵鷺、琵琶嘴鷺，俗稱飯匙鳥 ，台灣閩南語稱作「烏面抐桮」 台灣賞鳥人士則俗稱為「黑琵」。
+        因其扁平如湯匙狀的長嘴，與中國樂器中的琵琶極為相似，因而得名；亦因其姿態優雅，又有「黑面天使」和「黑面舞者」的雅稱。 ~維基百科"
         sidebarImage=${prefixUriIfNeeded('/assets/black_faced_spoonbill.jpg')}
         showLinks=${true}
     >
