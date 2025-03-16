@@ -80,7 +80,7 @@ export const About = () => html`
                    Hello! Welcome to The Purple Club. This is my personal blog where I write about things, people and animals that are surrounding my life.
                    I hope that some of my stories would resonate with yours. Feel free to leave a comment in the posts. Thank you for your time and appreciation.
                 </p>
-                <p style="text-align: left;"> <i>~Po Tin Mak Elly</i></p>
+                <p style="text-align: left;"> <i>~Po Tin Mak Monica</i></p>
                 
             </div>
         </div>
