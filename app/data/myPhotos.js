@@ -4,6 +4,18 @@
 // Then run `python3 scripts/make_previews.py` to make its blurred loading preview.
 export const myPhotos = [
     {
+        file: 'black-bellied-whistling-duck',
+        width: 1600,
+        height: 900,
+        caption: 'A black-bellied whistling duck standing on a rock in a green pond in Houston.',
+    },
+    {
+        file: 'mallards-on-the-pond',
+        width: 1600,
+        height: 1200,
+        caption: 'Mallards swimming among the rocks on a pond at golden hour in College Station.',
+    },
+    {
         file: 'chinese-goose',
         width: 1200,
         height: 1600,
